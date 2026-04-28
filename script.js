@@ -161,6 +161,6 @@ let round = playRound(humanSelection, computerSelection);
 }
 
 /*
-I don'like to have different logic ifs in the same function, but without using loops I can't think of anyting different solution. I addition, the instructions point at having the two result in same function. 
+I don'like to have different logic ifs in the same function, but without using loops I can't think of anyting different. In addition, the instructions point at having the two results in the same function. 
 */
 
