@@ -55,7 +55,8 @@ const humanSelection = getHumanChoice();
 const computerSelection = getComputerChoice();
 
 /*
-I don'like to have different logic ifs in the same function, but without using loops I can't think of anyting different. In addition, the instructions point at having the two results in the same function. 
+I don'like to have different logic ifs in the same function, but without using loops I can't think of anyting different. 
+In addition, the instructions point at having the two results in the same function. 
 */
 
 
@@ -93,6 +94,6 @@ let round = playRound(humanSelection, computerSelection);
 
  if (humanScore > computerScore){
     console.log("Bravo");
- } else console.log("Computer got lucy. Try again!")
+ } else console.log("Computer got lucky. Try again!")
 
 }
